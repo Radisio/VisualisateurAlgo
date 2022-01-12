@@ -6,6 +6,7 @@ companion object Factory {
         return when (contextName) {
             "QuickSort" -> QuickSortAlgorithm(vector, delayMs)
             "MergeSort" -> MergeSortAlgorithm(vector, delayMs)
+            "BubbleSort"-> BubbleSortAlgorithm(vector,delayMs)
             else -> return null
         }
     }
